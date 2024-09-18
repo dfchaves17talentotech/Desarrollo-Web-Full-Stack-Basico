@@ -10,12 +10,11 @@ In this course, we cover a wide range of topics related to full-stack developmen
 
 1. **HTML & CSS**: Structure, design, and responsive layouts.
 2. **JavaScript**: Basics to advanced concepts, DOM manipulation, and ES6+.
-3. **Front-end Frameworks**: Introduction to ReactJS and building interactive UIs.
-4. **Back-end Development**: Node.js, Express.js, and working with APIs.
-5. **Databases**: Working with both relational (MySQL) and non-relational (MongoDB) databases.
-6. **Version Control**: Git and GitHub for collaboration and version management.
-7. **APIs**: Building and consuming REST APIs.
-8. **Deployment**: How to deploy a full-stack application using services like Heroku or Vercel.
+3. **Back-end Development**: Node.js, Express.js, and working with APIs.
+4. **Databases**: Working with both relational (MySQL) and non-relational (MongoDB) databases.
+5. **Version Control**: Git and GitHub for collaboration and version management.
+6. **APIs**: Building and consuming REST APIs.
+7. **Deployment**: How to deploy a full-stack application using services like Heroku or Vercel.
 
 ## Folder Structure
 
