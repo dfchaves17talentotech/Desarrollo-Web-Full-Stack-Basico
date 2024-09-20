@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomularios</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+    </nav>
+    <header>
+        <h1>Formularios en HTML</h1>
+        <p>Ejemplos de diferentes tipos de formularios.</p>
+    </header>
+    <main>
+        <form>
+            <h2>Formularios de tipo Texto.</h2>
+            <label for="inputName">Nombre:</label>
+            <input type="text" name="inputName" id="inputName" minlength="3" maxlength="8" value="David" readonly>
+            <br>
+            <br>
+            <label for="inputLastName">Apellido:</label>
+            <input type="text" name="inputLastName" id="inputLastName" placeholder="Ingrese su Apellido" required>
+            <br>
+            <br>
+
+            <h2>Formulario Tipo Email</h2>
+            <label for="inputEmail">Email:</label>
+            <input type="email" name="inputEmail" id="inputEmail" required placeholder="ejemplo@ejemplo.com">
+
+            <h2>Formulario Tipo Número</h2>
+            <label for="inputAge">Edad:</label>
+            <input type="number" id="inputAge" required min="0" max="110" placeholder="Ingresa tu edad">
+            <br>
+            <br>
+            <label for="inputPhone">Teléfono:</label>
+            <input type="number" id="inputPhone" value="">
+            <br>
+            <br>
+            <label for="inputPoints">Puntos:</label>
+            <input type="number" step="1000">
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
