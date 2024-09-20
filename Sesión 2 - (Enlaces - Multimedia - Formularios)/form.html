@@ -40,7 +40,72 @@
             <br>
             <label for="inputPoints">Puntos:</label>
             <input type="number" step="1000">
-            <input type="submit">
+            <br>
+            <br>
+            <h2>Formulario Tipo Password</h2>
+            <label for="inputPassword">Contraseña</label>
+            <input type="password" minlength="10" maxlength="11" required>
+            <br>
+            <br>
+            <h2>Formulario Tipo Radio Button</h2>
+            <label for="inputRadioButtonM">Masculino</label>
+            <input type="radio" name="InputRadioButtonGender">
+            <label for="inputRadioButtonF">Femenino</label>
+            <input type="radio" name="InputRadioButtonGender">
+            <label for="inputRadioButtonNB">No Binario</label>
+            <input type="radio" name="InputRadioButtonGender" checked>
+            <br>
+            <br>
+            <h2>Formulario Tipo CheckBox</h2>
+            <label for="inputCheckBox">Acepta los terminos y condiciones: </label>
+            <input type="checkbox" name="inputCheckBox" checked>
+            <br>
+            <br>
+            <h2>Formulario Tipo Color</h2>
+            <label for="inputColor">Seleccione un Color: </label>
+            <input type="color" name="inputColor">
+            <br>
+            <br>
+            <h2>Formulario Tipo File</h2>
+            <label for="inputFile">Seleccione un Archivo: </label>
+            <input type="file" name="inputFile" multiple size="3000" accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+            <br>
+            <br>
+            <h2>Formulario Tipo Image</h2>
+            <label for="inputImage">Inicia sesión </label>
+            <input type="image" name="inputImage" src="./img/login-button.png" width="50" height="30">
+            <br>
+            <br>
+            <h2>Formulario Tipo Fecha y Hora</h2>
+            <label for="inputDate">Seleccione la Fecha: </label>
+            <input type="date" name="inputDate" min="2024-01-01" max="2025-01-01" step="7">
+            <br>
+            <br>
+            <label for="inputDateTime">Seleccione la Fecha y Hora: </label>
+            <input type="datetime-local" name="inputDateTime" min="2024-01-01T00:00" max="2025-01-01T23:59" >
+            <br>
+            <br>
+            <label for="inputTime">Seleccione la Hora: </label>
+            <input type="time" name="inputTime" >
+            <br>
+            <br>
+            <h2>Formulario TextArea</h2>
+            <label for="textArea">Ingrese Su Descripción</label>
+            <textarea name="textArea" id="textArea" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <h2>Formulario Select</h2>
+            <select>
+                <option value="">Seleccione su tipo de Mascota</option>
+                <option value="Cat">Gato</option>
+                <option value="Dog">Perro</option>
+                <option value="Parrot">Loro</option>
+                <option value="Hammster">Raton</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+
         </form>
     </main>
 </body>
