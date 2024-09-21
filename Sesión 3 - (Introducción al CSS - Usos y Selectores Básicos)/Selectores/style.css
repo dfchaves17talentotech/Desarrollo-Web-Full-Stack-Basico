@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+/* Selectores por Elemento */
+li {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 40px;
+    color: blue;
+}
+
+/* Selectores Por Clase */
+.Faltante {
+    color: red;
+}
+
+/* Selector por ID */
+#IngredienteEspecial {
+    color: orange;
+}
+
+#IngredienteSuperEspecial {
+    color: blueviolet;
+}

@@ -1,0 +1,36 @@
+p {
+    color: coral; /*Modifica el Color del elemento*/
+    font-family: Montserrat; /*Cambiar la fuente del texto*/
+    font-size: 20px; /* Tamaño de la letra Default 16px*/
+    font-weight: 900; /* Definir el grosor de la letra*/
+    font-style: italic; /*Estilo de la letra*/
+    text-align: center; /*Se utiliza para alinear el texto a donde se requiera left - right - center - justify - start - end*/
+    text-decoration: none; /* Realiza la decoración del texto none - underline - overline - line-through*/
+    line-height: 1; /*Espacio de Interlineado*/
+    letter-spacing: 2px; /*Espacio entre las letras*/
+    text-transform: uppercase; /*Cambia el texto a mayuscula minisculas o capitalize uppercase lowercase capitalize*/
+}
+
+.AllMyText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-style: normal;
+}
+
+.TextoResaltado {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: lowercase;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+#Resaltar {
+    font-weight: 100;
+    color: red;
+}
