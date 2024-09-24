@@ -1,0 +1,9 @@
+.box {
+    width: 100px;
+    height: 100px;
+    /*background-color: red;*/
+    /*background-color: rgb(255, 0, 255);*/
+    background-color: #2a43d1;
+    background-color: rgb(42, 67, 209);
+    background-color: hsl(231, 80%, 49%);
+}

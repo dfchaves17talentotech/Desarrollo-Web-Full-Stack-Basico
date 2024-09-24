@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: black;
+}
+
+.card {
+    background-color: grey;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.Titulo {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+p {
+    font-size: 9px;
+    padding: 20px;
+    background-color:lightgrey;
+    text-align: justify;
+}
