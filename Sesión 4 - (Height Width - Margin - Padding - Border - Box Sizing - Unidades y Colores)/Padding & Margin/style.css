@@ -1,0 +1,40 @@
+.formulario {
+    background-color: red;
+    /*padding: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 45px;
+    padding-bottom: 25px;
+    padding: 10px 45px 25px 30px; /*Top Right Bottom Left*/
+    padding: 20px 40px; /*Arriba y abajo -> Lados*/
+}
+
+.formulario_input {
+    padding: 6px 10px;
+    width: 90%;
+    margin: 5px;
+}
+
+.formulario_submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    width: 50%;
+}
+
+.box {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    /*margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    margin-right: 10px;
+    margin: 10px 15px 20px 30px;*/
+}
+
+.box_grande {
+    margin-top: 60px; /*Ejemplo del funcionamiento del Margin Colapse*/
+}

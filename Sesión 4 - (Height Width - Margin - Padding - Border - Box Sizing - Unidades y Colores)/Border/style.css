@@ -1,0 +1,23 @@
+div {
+    background-color: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    /*border-width: 10px;
+    border-color: black;
+    border-style: solid; /*Solid dashed double groove dotted hidden*/
+    /*border: solid 3px blue;*/
+    /*border-top: solid 3px blue;
+    border-bottom: 12px solid salmon;
+    border-left: 3px dashed green;
+    border-right: 4px double fuchsia;*/
+    border: 3px solid black;
+    border-radius: 5px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    
+}
