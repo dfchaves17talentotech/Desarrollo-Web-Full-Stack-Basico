@@ -1,5 +1,8 @@
+/*
+Este son los estilos que afectan el Body
+*/
 body {
-    background-color: #d0cfcf22;
+    background-color: #d0cfcf22; /* Este es el color de fondo que se escogio */
     font-family: sans-serif;
     margin: 20px;
 }
@@ -8,7 +11,7 @@ body {
     width: 100%;
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: center; /*top bottom left right center*/
     background-attachment: fixed;
 }
 
