@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(178, 176, 244, 0.4);
+    margin: 0;
+}
+
+.box_gradient {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(0.50turn,#000000,#0000000f);
+    /*background: radial-gradient(ellipse at bottom,black, green);*/
+    /*background: conic-gradient(red, blue);*/
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: auto;
+    padding: 20px;
+}
