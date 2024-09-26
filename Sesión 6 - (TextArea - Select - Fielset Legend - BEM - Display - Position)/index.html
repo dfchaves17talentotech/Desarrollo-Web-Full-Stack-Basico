@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Area - Select - Fielset Legend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Ingrese la Información</legend>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" placeholder="Nombre">
+            </div>
+            <div>
+                <label for="TipoAnimal">Seleccione la Raza:</label>
+                <select name="select" id="TipoAnimal">
+                    <option value="persa">Persa</option>
+                    <option value="maenicoon">Maenicoon</option>
+                    <option value="criollo" selected>Criollo</option>
+                    <option value="belga">Belga</option>
+                </select>
+            </div>
+            <div>
+                <label for="comunicacion">Como te Contactamos:</label>
+                <input list="comunicacion" placeholder="Como nos contactamos">
+                <datalist id="comunicacion">
+                    <option value="Télefono">Comunicación por Teléfono</option>
+                    <option value="Email">Comunicación por Email</option>
+                    <option value="Whatsapp">Comunicación por Whatsapp</option>
+                </datalist>
+            </div>
+            <div>
+                <textarea name="" id="" maxlength="200" rows="7" placeholder="Pon tu información"></textarea>
+            </div>
+        </fieldset>
+
+        
+    </form>
+</body>
+</html>

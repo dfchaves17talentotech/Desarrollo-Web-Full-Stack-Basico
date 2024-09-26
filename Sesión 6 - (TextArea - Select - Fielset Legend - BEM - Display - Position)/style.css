@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+fieldset {
+    border: 5px solid red;
+}
+
+legend {
+    background-color: aqua;
+}
+
+div {
+    margin-top: 20px;
+}
