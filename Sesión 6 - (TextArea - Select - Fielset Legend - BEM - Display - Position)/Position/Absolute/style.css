@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #9996;
+}
+
+.container {
+    border: 3px solid black;
+    margin: 40px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+    background-color: orange;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+.box_azul {
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: -10;
+}
