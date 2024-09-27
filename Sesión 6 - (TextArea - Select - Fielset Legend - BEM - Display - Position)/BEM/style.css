@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.article {
+    background-color: rgba(0, 0, 255,0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.article_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.article_image {
+    width: 300px;
+}
+
+.article_text {
+    text-align: left;
+    margin: 2em 2em;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.article_author {
+    background-color: rgba(6, 6, 39,0.5);
+    padding: 15px;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+.article_by {
+    font-weight: lighter;
+} 
+
+.article_author-name {
+    font-weight: bold;
+}
