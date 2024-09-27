@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.card_form {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+form {
+    background-color: #ededed;
+    padding: 10px 0;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 30px #0006;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.div_input {
+    padding: 6px 20px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-left: 3px solid #999;
+}
+
+option {
+    background-color: #ededed;
+    font-size: 12px;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    resize: vertical;
+    font-family: sans-serif;
+    border: none;
+    border-left: 3px solid #999;
+}
+
+label {
+    font-size: 0.9em;
+    line-height: 2;
+}
+
+fieldset {
+    margin: 20px;
+    border: 2px solid #aaa6;
+    border-radius: 6px;
+}
+
+legend {
+    padding: 0px 6px;
+    text-transform: uppercase;
+    background-color: #aaa6;
+    color: #0008;
+}
+
+.div_submit {
+    margin: auto;
+    max-width: 30%;
+}
+
+.button {
+    background-color: #0008;
+    color: #FFF;
+    border: none;
+    border-radius: 6px;
+}

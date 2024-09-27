@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card_form">
+        <form class="form">
+            <h2>Formulario de Contacto</h2>
+            <fieldset>
+                <legend>Información Básica</legend>
+                <div class="div_input">
+                    <label for="name">Nombre Completo:</label>
+                    <input type="text" id="name" class="input_text" placeholder="Joe Doe">
+                </div>
+                <div class="div_input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" class="input_text" placeholder="joedoe@example.com">
+                </div>
+                <div class="div_input">
+                    <label for="phone">Teléfono:</label>
+                    <input type="text" id="phone" class="input_text" placeholder="+57 (300)0000000">
+                </div>
+                <div class="div_input">
+                    <label for="address">Dirección:</label>
+                    <input type="text" id="address" class="input_text" placeholder="Joe Doe">
+                </div>
+                <div class="div_input">
+                    <label for="gender">Género:</label>
+                    <select name="gender" id="gender">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="No Binario">No Binario</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Información Contacto</legend>
+                <div class="div_input">
+                    <label for="contact">Medio de Contacto:</label>
+                    <input list="comunicacion">
+                    <datalist id="comunicacion">
+                        <option value="Télefono">Comunicación por Teléfono</option>
+                        <option value="Email">Comunicación por Email</option>
+                        <option value="Whatsapp">Comunicación por Whatsapp</option>
+                    </datalist>
+                </div>
+                <div class="div_input">
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" id="message" maxlength="140" rows="6" placeholder="Ingresa tu mensaje"></textarea>
+                </div>
+            </fieldset>
+
+            <div class="div_submit">
+                <input class="button" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
