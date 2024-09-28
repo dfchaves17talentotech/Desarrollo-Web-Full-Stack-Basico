@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #999;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    background-color: red;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid black;
+    padding: 10px;
+    outline: 10px solid blue;
+}
+
+.box:hover {
+    outline: 10px solid black;
+}
+
+input {
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    border-top: 3px solid blue;
+    padding: 6px;
+    outline: 10px solid green;
+    outline-offset: 10px;
+    transition: outline 5s, outline-offset 10s;
+}
+
+input:focus {
+    border-color: black;
+    color: blue;
+}
+
+input:focus-visible {
+    outline: none;
+}

@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    background-color: #999;
+}
+
+.box {
+    width: 350px;
+    height: 40px;
+    background-color: #FFF;
+    margin: auto;
+    margin-top: 50px;
+    white-space: nowrap;
+    /*word-break: auto-phrase;/*break-all keep-all*/
+    text-overflow: ellipsis;
+    text-wrap: pretty;
+}
+
+h1 {
+    text-wrap: balance; /*balance*/
+}

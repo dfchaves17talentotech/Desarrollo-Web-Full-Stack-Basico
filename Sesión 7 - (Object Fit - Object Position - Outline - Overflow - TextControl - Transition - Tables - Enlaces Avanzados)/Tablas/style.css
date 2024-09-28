@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #999a;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    color: blue;
+    letter-spacing: 0.4;
+    font-weight: bold;
+}
+
+td {
+    font-weight: lighter;
+}
+
+table {
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.total {
+    color: red;
+}
