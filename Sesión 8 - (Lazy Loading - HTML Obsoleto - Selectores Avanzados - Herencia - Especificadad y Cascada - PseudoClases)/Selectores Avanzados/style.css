@@ -1,0 +1,57 @@
+/* SELECTORES POR ATRIBUTO */
+
+/*
+img[src='photo.jpeg'] {
+    max-width: 300px;
+}
+
+img[src$='.avif'] {
+    max-width: 250px;
+}
+
+img[src$='jpeg'] { /*Lo contiene al final
+    max-width: 150px;
+}
+
+img[src*='jpeg'] { /*Lo contiene en cualquier parte
+    max-width: 150px;
+}
+
+*/
+img[src^='photo'] { /*Lo contiene al inicio*/
+    max-width: 250px;
+}
+
+/* SELECTORES DESCENDIENTES*/
+
+ul li {
+    color: red;
+}
+
+ul strong {
+    color: blue;
+}
+
+/* SELECTORES POR HIJO DIRECTO*/
+
+ul > li > strong {
+    color: yellow;
+} 
+
+/* SELECTOR POR HERMANO ADYECENTE */
+
+h1 + p + p {
+    color: blue;
+}
+
+/* SELECTORES POR HERMANOS GENERALES */
+
+h1 ~ p {
+    color: brown;
+}
+
+/* VARIOS ELEMENTOS*/
+
+h1, h2 {
+    color: green;
+}

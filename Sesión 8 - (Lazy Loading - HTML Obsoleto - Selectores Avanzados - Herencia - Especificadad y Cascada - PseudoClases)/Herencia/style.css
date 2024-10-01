@@ -1,0 +1,21 @@
+body {
+    color: brown;
+    font-family: sans-serif;
+}
+
+div {
+    width: 50%;
+}
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+    width: inherit;
+}
+
+textarea {
+    font-family: inherit; /* inherit - unset - revert - initial*/
+}

@@ -1,0 +1,99 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+/* Cuando pasamos el mouse por encima del H1*/
+h1:hover {
+    background-color: #CCC;
+    color: #000;
+}
+
+/* Cuando hacemos click sobre el H1*/
+h1:active {
+    background-color: #999;
+    color: #FFF;
+}
+
+li {
+    color: pink;
+}
+
+
+/* Seleccionar el primer elemento*/
+li:first-child {
+    color: #f00;
+}
+
+/* Seleccionar el último elemento*/
+li:last-child {
+    color: #00f
+}
+
+/*Seleccionar el elemento por posición*/
+li:nth-child(7) {
+    color: #00aaaa;
+}
+
+ul {
+    background-color: #48e;
+    color: #FFF;
+    padding: 0;
+}
+
+/*Seleccionar por Saltos*/
+li:nth-child(2n) {
+    background-color: #FFF;
+    color: #48e;
+}
+
+/* Seleccionar por tipo */
+li:nth-of-type(4) {
+    background-color: #48e;
+    color: #FFF;
+}
+
+ul li {
+    color: red;
+}
+
+/*Excluir elementos por clase*/
+ul li:not(.excluido) {
+    color:gray;
+}
+
+div {
+    border: 1px solid black;
+}
+
+/* Pseudoclase para cuando el div en este caso este vacio.*/
+div:empty {
+    border: none;
+}
+
+input[type='checkbox']{
+    margin: 50px;
+}
+
+/* Cuando un boton este checkeado o no */
+
+input[type='checkbox']:checked {
+    margin: 0;
+}
+
+/* Simplemente los a que tengan un link*/
+a:link {
+    color: red;
+}
+
+/* Cuando un link ya fue visitado*/
+a:visited {
+    color: violet;
+}
+
+input:required {
+    border: 1px dashed red;
+}
+
+/*https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes*/
