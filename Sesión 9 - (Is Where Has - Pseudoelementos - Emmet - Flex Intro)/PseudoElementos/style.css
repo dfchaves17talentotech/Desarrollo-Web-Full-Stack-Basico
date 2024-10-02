@@ -1,0 +1,41 @@
+section {
+    padding: 20px;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: 3em;
+}
+
+div::first-line {
+    color: blue;
+    font-size: 2em;
+}
+
+h1::first-letter::selection {
+    background-color: green;
+}
+
+div::selection {
+    background-color: green;
+    color:red;
+}
+
+input::placeholder {
+    color: brown;
+    background-color: pink;
+}
+
+li::marker {
+    color: blue;
+}
+
+li::before {
+    content: "Antes: ";
+    color: red;
+}
+
+li::after {
+    content: " -- Después";
+    color: green;
+}

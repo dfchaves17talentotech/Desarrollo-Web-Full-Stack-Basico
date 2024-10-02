@@ -1,0 +1,26 @@
+section .elemento1,
+section .elemento6,
+section .otroelemento {
+    color: red;
+}
+
+section :is(.elemento1, .elemento6, .otroelemento) {
+    color: blue;
+}
+
+section :where(.elemento1, .elemento6, .otroelemento) {
+    color: green;
+}
+
+/*
+section:has(.elemento1) {
+    background-color: black;
+}*/
+
+label:has(input:invalid) {
+    color: red;
+}
+
+label:has(input:valid) {
+    color: green;
+}

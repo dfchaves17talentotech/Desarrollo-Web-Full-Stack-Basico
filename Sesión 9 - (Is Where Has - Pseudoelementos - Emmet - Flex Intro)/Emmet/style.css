@@ -1,0 +1,22 @@
+header {
+    margin: ; /*m + enter*/
+    padding: ;/*p + enter*/
+    margin: 10px; /*m10 + enter*/
+    padding: 10px; /*p10 + enter*/
+    margin: 10%; /*m10p*/
+    margin: 10em; /*m10e*/
+
+    margin: 10px 20px; /*m10-20*/
+    margin: 10% -20em; /*m10p-20e*/
+    border: 1px solid #000; /*bd*/
+    width: 100px;/*w100*/
+    color: #121212; /*C#12*/
+
+    color: #48e;
+
+    background-color: #000;
+
+    background-color: #333;
+}
+
+/*https://docs.emmet.io/abbreviations/syntax/*/

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet</title>
+</head>
+<body>
+    <h1>Titulo</h1> <!-- h1 + enter --> 
+    <div></div> <!-- div + enter --> 
+    <ul></ul> <!-- ul + enter --> 
+    <li></li> <!-- li + enter --> 
+    <a href=""></a> <!-- a + enter --> 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo delectus asperiores optio ex tempore dolores, quaerat esse culpa amet unde perspiciatis fugit consequuntur magnam officia quisquam impedit placeat, perferendis nemo? <!-- lorem + enter --> 
+
+    <ul> <!-- ul>li + enter --> 
+        <li></li>
+    </ul>
+
+    <!-- ul>li>a + enter --> 
+    <ul>
+        <li><a href=""></a>Inicio</li>
+    </ul>
+
+    <!-- li*5 + enter --> 
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- ul>li*5>a + enter --> 
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+
+    <!-- ul>(li>a)*5 + enter --> 
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+
+    <!-- ul>li*5>a.link + enter --> 
+    <ul>
+        <li><a href="" class="link"></a></li>
+        <li><a href="" class="link"></a></li>
+        <li><a href="" class="link"></a></li>
+        <li><a href="" class="link"></a></li>
+        <li><a href="" class="link"></a></li>
+    </ul>
+
+    <!-- ul#list>li*5.list_item>a.item + enter --> 
+    <ul id="list">
+        <li class="list_item"><a href="" class="item"></a></li>
+        <li class="list_item"><a href="" class="item"></a></li>
+        <li class="list_item"><a href="" class="item"></a></li>
+        <li class="list_item"><a href="" class="item"></a></li>
+        <li class="list_item"><a href="" class="item"></a></li>
+    </ul>
+
+    <!-- header>nav>ul>li*4>a + enter --> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header.header>nav.nav>ul.list>li.list__item*4>a.item + enter --> 
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="list__item"><a href="" class="item"></a></li>
+                <li class="list__item"><a href="" class="item"></a></li>
+                <li class="list__item"><a href="" class="item"></a></li>
+                <li class="list__item"><a href="" class="item"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header.header>nav.nav>ul.list>li.list__item*4>a.item{item $} + enter --> 
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="list__item"><a href="" class="item">item 1</a></li>
+                <li class="list__item"><a href="" class="item">item 2</a></li>
+                <li class="list__item"><a href="" class="item">item 3</a></li>
+                <li class="list__item"><a href="" class="item">item 4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- header.header>nav.nav>ul.list>li.list__item*4>a.item{item $3} + enter --> 
+    <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="list__item"><a href="" class="item">item 13</a></li>
+                <li class="list__item"><a href="" class="item">item 23</a></li>
+                <li class="list__item"><a href="" class="item">item 33</a></li>
+                <li class="list__item"><a href="" class="item">item 43</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="box">
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam magnam blanditiis, id accusamus veritatis dolor nisi molestiae nam animi, nostrum sunt aspernatur nesciunt? Quibusdam esse eveniet repellat eius? Vitae, aliquam.</p>
+    </div>
+
+    <!--div>img+p>lorem + enter -->
+    <div>
+        <img src="" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nihil explicabo magnam exercitationem saepe ad sed, libero dolore debitis provident eum optio autem maiores dolorum asperiores cumque harum corporis praesentium.</p>
+    </div>
+
+    <!--d>(div>img)+(div>p) + enter-->
+    <div>
+        <div><img src="" alt=""></div>
+        <div>
+            <p></p>
+        </div>
+    </div>
+
+    <li>Item 5</li>
+    <li>Item 5</li>
+    <li>Item 5</li>
+    <li>Item 5</li>
+    <li>Item 5</li>
+
+</body>
+</html>
