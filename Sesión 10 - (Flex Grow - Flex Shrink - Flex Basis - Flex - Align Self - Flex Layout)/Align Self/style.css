@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox {
+    border: 3px solid red;;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 40px;
+    height: 400px;
+}
+
+.flex-item {
+    width: 100px;
+    background-color: #911;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.flex-item:first-child {
+    background-color: #d56;
+}
+
+.flex-item:nth-child(2) {
+    background-color: #48e;
+}
+
+.flex-item:last-child {
+    background-color: #000;
+}
+
+.item5 {
+    align-self: stretch;
+}

@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #414141aa;
+    color: #fff
+}
+
+/*HEADER SECTION*/
+
+.header {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url("img/background-image.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.header_overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: #0005;
+    position: absolute;
+    z-index: 1;
+}
+
+.header_item-container {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+    z-index: 10;
+}
+
+.header_img {
+    min-width: 200px;
+    max-width: 40%;
+    border-radius: 50%;
+    border: 4px solid #FFaa;
+    margin: 20px;
+}
+
+.header_item-container p {
+    margin: 0 20px;
+    text-wrap: pretty;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.6em;
+    text-wrap: balance;
+}
+
+/* NAV SECTION*/
+
+.nav {
+    display: flex;
+    background-color: #FFF;
+    justify-content: center;
+    padding: 8px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 25px #000;
+    margin-bottom: 50px;
+}
+
+.nav_ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav_ul-container {
+    text-align: center;
+    flex-grow: 4;
+}
+
+.nav_item {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.nav_link {
+    color: #414141aa;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 12px;
+    border-radius: 0px;
+    transition: background-color 0.2s, border-radius 0.3s;
+}
+
+.nav_link:hover {
+    background-color: #41414111;
+    border-radius: 20px;
+}
+
+.login_container {
+    margin-left: 50px;
+}
+
+.link_login {
+    background-color: #414141;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 24px;
+}
+
+.link_login:hover {
+    background-color: #414141aa;
+}
+
+/* Main Section*/
+
+main {
+    margin-top: 20px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 20px;
+    text-wrap: pretty;
+    text-align: justify;
+}
+
+/* Footer Section*/
+
+.footer {
+    display: flex;
+    color: #414141aa;
+    height: 50px;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
