@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 70%;
+    aspect-ratio: 16/9;
+}
+
+video {
+    width: 100%;
+}

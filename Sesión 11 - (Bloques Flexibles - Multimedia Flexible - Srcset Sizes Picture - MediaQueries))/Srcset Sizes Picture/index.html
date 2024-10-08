@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srcset Sizes Picture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- <img src="img/small.jpeg" alt="" srcset="img/small.jpeg 400w, img/medium.jpeg 600w, img/large.jpeg"
+    sizes="(max-width:300px) 400px, (max-width:700px) 600px, 900px">--> 
+    <picture>
+        <source media="(max-width:400px)" srcset="img/small.jpeg">
+        <source media="(max-width:600px)" srcset="img/medium.jpeg">
+        <img src="img/large.jpeg" alt="">
+    </picture>
+</body>
+</html>
