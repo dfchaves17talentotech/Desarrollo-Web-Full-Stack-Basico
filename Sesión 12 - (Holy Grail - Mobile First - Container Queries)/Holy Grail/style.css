@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-height: 100vh;
+}
+
+div, body {
+    box-sizing: border-box;
+}
+
+.main_wrapper, header, footer {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+/*---------- HEADER -------------*/
+
+.main_navbar {
+    background-color: #48e;
+}
+
+.main_navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.main_navbar li {
+    list-style: none;
+    margin: 4px;
+}
+
+.main_navbar a {
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/*---------------- MAIN -------------*/
+
+.main_wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 2000px;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+main {
+    min-width: 300px;
+    flex-grow: 2;
+}
+
+main img{
+   max-width: 100%;
+}
+
+aside, main {
+    padding: 10px 20px;
+    flex-basis: 0;
+}
+
+.secondary_navbar {
+    min-width: 10rem;
+}
+
+.secondary_navbar a {
+    color: #48e;
+    display: inline-block;
+    padding: 10px 6px;
+}
+
+.secondary_navbar li {
+    list-style: none;
+}
+
+aside:last-child {
+    min-width: 10rem;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+/*----------- FOOTER ------------*/
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 40px;
+    margin-top: auto;
+}
+
+/*------------- MEDIA QUERIES --------*/
+
+@media screen and (max-width: 800px) {
+    .main_wrapper {
+        flex-direction: column;
+    }
+    .flex_item {
+        order: 0;
+    }
+    aside:last-child {
+        display: none;
+    }
+    .flex_item:nth-child(2) {
+        order: 1;
+    }
+    .flex_item:first-child {
+        order: 2;
+    }
+    .flex_item:last-child {
+        order: 3;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main_wrapper {
+        flex-direction: column;
+    }
+
+    aside:last-child {
+        display: block;
+    }
+}

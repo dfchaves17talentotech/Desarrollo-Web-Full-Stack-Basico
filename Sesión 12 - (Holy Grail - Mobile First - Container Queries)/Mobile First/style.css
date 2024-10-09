@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-height: 100vh;
+    background-color: #333;
+    color: #FFF;
+}
+
+div, body {
+    box-sizing: border-box;
+}
+
+.main_wrapper, header, footer {
+    width: 100%;
+}
+
+h1, h2, h3 {
+    text-wrap: balance;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*--------- HEADER ---------*/
+.header {
+    background-color: #48e;
+}
+
+.main_navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.main_navbar li {
+    list-style: none;
+    margin: 4px;
+}
+
+.main_navbar a {
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 10px;
+}
+
+nav a {
+    text-decoration: none;
+} 
+
+/*--------- MAIN ----------*/
+
+.main_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 10px;
+}
+
+main {
+    min-width: 300px;
+    flex-grow: 2;
+}
+
+
+aside, main {
+    padding: 10px 20px;
+    flex-basis: 0;
+}
+
+.secondary_navbar {
+    min-width: 10rem;
+    background-color: #FFF;
+}
+
+.secondary_navbar h2 {
+    color: #333;
+}
+
+.secondary_navbar li {
+    list-style: none;
+}
+
+.secondary_navbar a {
+    color: #48e;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+aside:last-child {
+    background-color: #FFF;
+    min-width: 10rem;
+    color: #333;
+}
+
+/*------- FOOTER ----------*/
+
+footer {
+    padding: 40px;
+}
+
+
+
+@media screen and (min-width: 550px) {
+    body {
+        background-color: #FFF;
+        color: #333;
+    }
+    .main_wrapper {
+        flex-direction: column;
+    }
+    footer {
+        background-color: #333;
+        color: #FFF;
+    }
+    .secondary_navbar {
+        min-width: 15rem;
+    }
+    aside:last-child {
+        min-width: 15rem;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main_wrapper {
+        flex-direction: row;
+    }
+    main {
+        flex-grow: 3;
+    }
+    aside:last-child {
+        display: block;
+        min-width: 20rem;
+        flex-grow: 1;
+    }
+}
+
+
+@media screen and (max-width: 800px) and (orientation: landscape){
+    aside:last-child {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main_wrapper {
+        flex-direction: row;
+        max-width: 1500px;
+    }
+
+    body {
+        margin: auto;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+
+    }
+}

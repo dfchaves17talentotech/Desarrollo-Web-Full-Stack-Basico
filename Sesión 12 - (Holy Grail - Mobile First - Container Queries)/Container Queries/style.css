@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #333;
+}
+
+.container {
+    container-type: inline-size;
+    container-name: principal;
+}
+
+.container2 {
+    container-type: inline-size;
+    container-name: secundario;
+}
+
+p {
+    font-size: 40px;
+}
+
+@container principal (max-width: 500px) {
+    p {
+        font-size: 20px;
+        color: red;
+        background-color: black;
+    }
+}
+
+@container secundario (max-width: 500px) {
+    p {
+        background-color: #fff;
+        color: #48e;
+        font-size: 25px;
+    }
+}
