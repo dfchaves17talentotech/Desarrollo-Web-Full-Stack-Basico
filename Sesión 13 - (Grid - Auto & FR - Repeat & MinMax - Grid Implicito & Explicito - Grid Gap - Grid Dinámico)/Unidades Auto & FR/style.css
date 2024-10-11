@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+/*
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    direction: ltr;
+}*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    direction: ltr;
+}
+
+.grid_item {
+    margin: 10px;
+    font-size: 30px;
+    background-color: #48e;
+    color: #FFF;
+}

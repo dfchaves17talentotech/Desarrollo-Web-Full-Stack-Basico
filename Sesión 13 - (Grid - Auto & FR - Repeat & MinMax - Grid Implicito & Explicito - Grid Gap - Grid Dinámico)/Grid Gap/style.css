@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, minmax(200px, 1fr));
+    grid-auto-rows: minmax(200px, 1fr); /* Tamaño de los rows en lo implicito*/
+    grid-auto-flow: row; /*Donde quiero que cree los elementos que no le defini*/
+    grid-auto-columns: minmax(200px, 1fr); /*Tamaño de los columns en lo implicito*/
+    direction: ltr;
+    column-gap: 30px;
+    row-gap: 10px;
+    gap: 30px 30px;
+    gap: 30px;
+    padding: 30px;
+    margin: auto;
+}
+
+.grid_item {
+    font-size: 30px;
+    background-color: #48e;
+    color: #FFF;
+}
+
+img {
+    max-width: 100%;
+}

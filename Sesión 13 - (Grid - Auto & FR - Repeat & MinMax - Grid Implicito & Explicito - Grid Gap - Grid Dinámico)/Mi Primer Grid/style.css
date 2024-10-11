@@ -4,10 +4,7 @@ body {
 }
 
 .container {
-    background-color: red;
     display: grid;
-    height: 80vh;
-    max-width: 100%;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 20% 20% 20% 40%;
     direction: ltr;
