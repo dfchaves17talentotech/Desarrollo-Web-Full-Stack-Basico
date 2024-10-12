@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #CCC;
+}
+
+.box, .bar {
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #FFF;
+    border: 2px solid #48e;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.bar {
+    background-color: #48e;
+    padding: 10px;
+    width: 0%;
+    border-radius: 30px;
+    animation: growth-bar;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-timeline: scroll();
+    
+}
+
+@keyframes growth-bar {
+    
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+        background-color: #F33;
+    }
+}
