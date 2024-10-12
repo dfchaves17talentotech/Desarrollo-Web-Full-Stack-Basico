@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.grid_item:first-child {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    gap: 10px;
+    grid-area: 2/2/span 3/span 2;
+    padding: 10px;
+}
+
+.sub_grid-item {
+    background-color: #e66;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.grid_item {
+    background-color: #48e;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

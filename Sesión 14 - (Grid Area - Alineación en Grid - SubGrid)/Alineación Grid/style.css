@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+    padding: 10px;
+    justify-items: center; /*Alinea dentro de cada celda*/
+    justify-content: space-evenly; /*Alinea todo el Grid Container*/
+    align-items: center;
+    align-content: space-between;
+}
+
+.grid_item {
+    background-color: #48e;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.grid_item:first-child {
+    justify-self: start;
+    align-self: end;
+}

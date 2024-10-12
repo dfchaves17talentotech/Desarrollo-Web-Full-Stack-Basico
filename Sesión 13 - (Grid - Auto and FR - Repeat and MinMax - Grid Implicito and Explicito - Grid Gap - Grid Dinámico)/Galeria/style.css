@@ -11,12 +11,10 @@ header {
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit,  minmax(400px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(400px,1fr));
+    grid-auto-rows: minmax(400px, 1fr);
     grid-auto-flow: dense;
-    min-height: 10vh;
     gap: 20px;
     padding: 20px;
-    max-height: 2000vh;
 }
 
 .grid_item {
