@@ -110,3 +110,29 @@ const nuevoArrayDePares = (arregloDeNumeros)=> {
 }
 
 console.log(fnNumerosParesArray([1,2,3,4,5,6,7,8,9,10]))
+
+/** 
+ * Lista de Tareas Avanzada
+ * Requerimientos:
+ *      Añadir tareas.
+ *      Marcar tareas como completadas.
+ *      Editar tareas.
+ *      Eliminar tareas.
+ *      Mostrar todas las tareas con su estado.
+ * 
+ *      Cada tarea debe tener un ID, Nombre, Description, Estado (Completado o no Completado)
+*/
+
+
+const cantidadEstudiantes = prompt('Ingrese la cantidad de estudiantes:');
+
+for (let i =0 ; i< cantidadEstudiantes ; i ++){
+    let nombre = prompt('Ingrese el nombre del Estudiante:');
+    const nota = prompt('Ingrese la nota del Estudiante:');
+
+    if (nota> 90){
+        console.log('El estudiante: ', nombre, 'esta en nivel Excelente');
+    } else if (nota< 90) {
+        console.log('El estudiante: ', nombre, 'esta en nivel Basico');
+    }
+}
