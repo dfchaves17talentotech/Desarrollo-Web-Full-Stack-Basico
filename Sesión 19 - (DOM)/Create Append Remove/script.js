@@ -2,7 +2,7 @@ window.addEventListener('load',() =>{
 
     const addButton = document.getElementById('addButton');
     const removeButton = document.getElementById('removeButton');
-    const container = document.getElementById('container')
+    const container = document.getElementById('container');
 
     addButton.addEventListener('click',()=>{
         const nuevoParrafo = document.createElement('p');

@@ -1,0 +1,14 @@
+#hoverDiv {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor {
+    background-color: #000;
+    color: #FFF;
+}
+
+.contenedor_mouse {
+    background-color: lightblue;
+    color: #000;
+}
