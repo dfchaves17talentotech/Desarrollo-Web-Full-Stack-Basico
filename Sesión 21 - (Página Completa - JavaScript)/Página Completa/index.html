@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dabit Technologies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="src/script.js"></script>
+    <script type="module" src="src/continents.js"></script>
+    <script type="module" src="src/projects.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <input type="checkbox" class="header_checkbox" id="open_menu">
+        <label for="open_menu" class="header_open-nav-button">=</label>
+        <div class="header_logo-container">
+            <img class="header_logo" src="img/logo.png" alt="">
+        </div>
+        <nav class="header_nav">
+            <ul class="header_nav-list">
+                <li class="header_nav-item"><a href="#header">Inicio</a></li>
+                <li class="header_nav-item"><a href="#locations">About</a></li>
+                <li class="header_nav-item"><a href="#portfolio">Portafolio</a></li>
+                <li class="header_nav-item"><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="locations" id="locations">
+        <div class="location_wrapper">
+            <div class="location_image-container">
+                <img class="location_img" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" alt="">
+            </div>
+            <div class="location_data-container">
+                <div class="location_data">
+                    <div class="location_data-description">
+                        <h1>DaBit Technologies</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi velit aliquid ab temporibus aut quod culpa similique qui, aspernatur sunt! Debitis, porro inventore officiis explicabo consequuntur recusandae sit distinctio ut.</p>
+                    </div>
+                    <div class="location_continents-container">
+                        <h2>Continentes</h2>
+                        <ul id="listOfContinents">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio_title">Portafolio de Proyectos</h2>
+        <div class="portfolio_project-container" id="projectContainer">
+        </div>
+    </section>
+    <section class="form" id="form">
+        <h2 class="form_title">Contacto</h2>
+        <form class="form_form" id="contactForm">
+            <div class="form_input-container">
+                <label> Nombre:
+                    <input type="text" id="inputName" placeholder="David">
+                </label>
+            </div>
+            <div class="form_input-container">
+                <label> Apellido:
+                    <input type="text" id="inputLastName" placeholder="Chaves">
+                </label>
+            </div>
+            <div class="form_input-container">
+                <label> Email:
+                    <input type="email" id="inputEmail" placeholder="dfchaves17@gmail.com">
+                </label>
+            </div>
+            <div class="form_input-container">
+                <label> Mensaje:
+                    <textarea placeholder="Deja Tu Mensaje" id="inputMessage"></textarea>
+                </label>
+            </div>
+            <div class="form_input-container">
+                <label>
+                    <input type="submit">
+                </label>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <strong>DaBit</strong> - Copyright - 2024
+    </footer>
+</body>
+</html>
