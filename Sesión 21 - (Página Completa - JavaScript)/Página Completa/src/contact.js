@@ -1,4 +1,4 @@
-export const formSubmit = (event) => {
+export const formSubmit = async (event) => {
     event.preventDefault(); //Evita que se pierda la información del usuario al no dejar que se recargue la página.
     try {
         const name = document.getElementById('inputName').value;
@@ -17,6 +17,13 @@ export const formSubmit = (event) => {
                     message
                 };
                 console.log(messageComplete);
+                await fetch('http://localhost:3000/api/contacts', {
+                    method: 'POST', // Especifica el tipo de solicitud como POST
+                    headers: {
+                        'Content-Type': 'application/json', // Especifica que el contenido es JSON
+                    },
+                    body: JSON.stringify(messageComplete), // Convierte el objeto en una cadena JSON
+                })
                 alert('Si mensaje se ha enviado con exito.');
             }
     } catch (error) {

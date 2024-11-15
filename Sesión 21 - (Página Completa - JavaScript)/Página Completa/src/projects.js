@@ -10,10 +10,8 @@ const componentProjects = (projectName, imageBackground) => {
 
     portfolioProject.appendChild(portfolioProjectName);
 
-    window.addEventListener('load', ()=> {
-        const listOfProjects = document.getElementById('projectContainer');
-        listOfProjects.appendChild(portfolioProject);
-    });
+    const listOfProjects = document.getElementById('projectContainer');
+    listOfProjects.appendChild(portfolioProject);
 }; 
 
 /**
@@ -21,10 +19,18 @@ const componentProjects = (projectName, imageBackground) => {
  * @param {*} projectsDataPayload 
  */
 export const fetchProjectsData = (projectsDataPayload) => {
-    const data = JSON.parse(projectsDataPayload);
-    if(data.length > 0 ){
-        data.forEach(project => {
+    if(projectsDataPayload.length > 0 ){
+        projectsDataPayload.forEach(project => {
             componentProjects(project.projectName, project.projectImage);
         });
     }
 };
+
+export const getDataProjects = async () => {
+    try {
+        let response = await fetch('http://localhost:3000/api/projects');
+        return await response.json();
+    } catch (error) {
+        console.error('Hubo un error');
+    }
+}

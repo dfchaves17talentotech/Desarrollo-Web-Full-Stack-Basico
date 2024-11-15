@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.continentRoutes = void 0;
+const express_1 = require("express");
+const continent_controller_1 = require("../controllers/continent_controller");
+const continentRoutes = (0, express_1.Router)();
+exports.continentRoutes = continentRoutes;
+continentRoutes.post('/continents', continent_controller_1.createContinent);
+continentRoutes.get('/continents', continent_controller_1.getContinents);
+continentRoutes.get('/continents/:id', continent_controller_1.getContinentsById);
+continentRoutes.put('/continents', continent_controller_1.updateContinent);
+continentRoutes.delete('/continents', continent_controller_1.deleteContinent);
